@@ -1,0 +1,135 @@
+body {
+  background-color: #121212;
+  font-size: 0.875rem;
+  color: white;
+}
+
+.ns-header {
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(42, 42, 42);
+}
+
+.ns-left-section :first-child {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.ns-left-section :first-child:hover {
+  color: rgb(237, 237, 237);
+}
+
+.ns-link {
+  color: rgb(237, 237, 237);
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-weight: 500;
+}
+
+.ns-link:hover {
+  color: rgb(147 51 234);
+}
+
+.ns-right-section button {
+  border-radius: 0.375rem;
+  height: 2.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: rgb(243 244 246);
+  border: 1px solid rgb(68 68 68);
+  background-color: transparent;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.ns-right-section :first-child {
+  margin-right: 20px;
+}
+
+.ns-pink-btn {
+  background-color: rgb(147 51 234) !important;
+}
+
+.heading {
+  text-align: center;
+  padding: 6rem 1.5rem;
+}
+
+.issuetracking {
+  color: rgb(255 255 255);
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+}
+
+.simplified {
+  color: rgb(192 132 252);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.subheading {
+  color: rgb(209 213 219);
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.gap {
+  margin-top: 2.5rem;
+}
+
+.get-started-btn {
+  background-color: rgb(126 34 206);
+  color: rgb(255 255 255);
+  font-weight: 500;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 0.5rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.footer {
+  border-top: 1px solid rgb(42, 42, 42);
+  border-bottom: 1px solid rgb(42, 42, 42);
+}
+
+.footer-c1 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-c2 {
+  color: rgb(156 163 175);
+  font-size: .875rem;
+  line-height: 1.25rem;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+
+
+
+
+
+
