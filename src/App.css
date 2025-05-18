@@ -13,13 +13,13 @@ body {
   border-bottom: 1px solid rgb(42, 42, 42);
 }
 
-.ns-left-section :first-child {
+.ns-left-section:first-child {
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
-.ns-left-section :first-child:hover {
+.ns-left-section:first-child:hover {
   color: rgb(237, 237, 237);
 }
 
@@ -50,7 +50,7 @@ body {
   padding-right: 1rem;
 }
 
-.ns-right-section :first-child {
+.ns-right-section .ns-black-btn {
   margin-right: 20px;
 }
 
@@ -60,7 +60,7 @@ body {
 
 .heading {
   text-align: center;
-  padding: 6rem 1.5rem;
+  padding: 8rem 2rem;
 }
 
 .issuetracking {
@@ -121,15 +121,83 @@ body {
 
 .footer-c2 {
   color: rgb(156 163 175);
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.25rem;
   text-align: center;
   font-size: 1.25rem;
 }
 
+.footer2 {
+  border-top-width: 1px;
+  background-color: rgb(18 18 18);
+  border-bottom-width: 1px;
+}
 
+.blocks {
+  display: flex;
+  justify-content: space-between;
+  border: 0 solid #e5e7eb;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom-width: 1px;
+}
 
+.blocks h3 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  margin-bottom: 1rem;
+}
 
+.blocks ul {
+  list-style: none;
+  padding: 0%;
+}
 
+.modetext {
+  color: rgb(75 85 99);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+}
 
+.ns-list a {
+  border: 0 solid #e5e7eb;
+  color: rgb(75 85 99);
+  cursor: pointer;
+  text-decoration: none;
+}
 
+.ns-list a:hover {
+  color: rgb(147 51 234);
+}
+
+.terms {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgb(75 85 99);
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+
+.terms:hover {
+  color: rgb(147 51 234);
+}
+
+.bottom {
+  text-align: center;
+  color: rgb(75 85 99);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  line-height: 1.25rem;
+  font-size: 1.2rem;
+}
+
+.downbit {
+  text-align: center;
+  border-color: #e5e7eb;
+  border: #e5e7eb;
+}
